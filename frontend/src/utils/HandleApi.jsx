@@ -1,6 +1,7 @@
 import axios from 'axios'
 
-const baseUrl = "http://localhost:5001";
+// const baseUrl = "http://localhost:5001";
+const baseUrl = "https://todolist-app-with-auth.onrender.com";
 const signUpUser= async (name, email, password)=>{
     try {
         const response = await axios.post(`${baseUrl}/signup`,{name:name,email: email, password:password});
