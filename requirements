@@ -39,7 +39,7 @@ frontend deployed on verasl
 todod-app
 main
 frontend
-npm run build
+npm run buildver
 npm start
 
 
