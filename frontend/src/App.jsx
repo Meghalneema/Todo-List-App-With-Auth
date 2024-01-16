@@ -4,7 +4,7 @@ import { useState } from 'react'
 import './App.css'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Login from './login.jsx'
-import SignUp from './signup.jsx';
+import SignUp from './signUp.jsx';
 import ToDoList from './ToDoList'
 import ToDo from './components/ToDo'
 import { getAllToDO,addToDO,updateToDo,deleteToDo,uploadImage } from './utils/HandleApi'
